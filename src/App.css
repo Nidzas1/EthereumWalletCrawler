@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#transactions {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#transactions td,
+#transactions th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#transactions tr:nth-child(even) {
+  background-color: #444444;
+}
+
+#transactions tr:hover {
+  background-color: #444444;
+}
+
+#transactions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #444444;
+  color: white;
+}
